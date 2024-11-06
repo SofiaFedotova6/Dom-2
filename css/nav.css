@@ -1,0 +1,24 @@
+nav{
+    background: #eee; /*  background - цвет фона */
+    border: 1px solid rgb(71, 86, 121);  /* border - обводка */
+    width: 300px; /* ширина нашего навигационного меню ( списка )*/
+    position: fixed;   /* позиция привязана к точке на экране */
+    top: 45px;
+    margin-left: 10px;
+    padding: 10px;  /* внутренний отступ  */
+    box-sizing: border-box;
+    opacity: .1; /* 10% */
+    transition: all 1s ease;
+    height: 90vh; /* добавили высоту блоку */
+    overflow-y: scroll;
+    /* добавляем функцию scroll по вертикали / оси y */
+}
+
+nav:hover{
+    opacity: 1;  /* 100% */
+    transition: all 0.5s ease;
+}
+
+nav p{
+    margin-bottom: 3%;
+}

@@ -1,0 +1,35 @@
+@media screen and (min-width: 1921px) {
+  
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .index_item{
+        width: 500px;
+        background: rgb(222, 255, 247);
+        margin-bottom: 50px;
+      } 
+    
+      .index_item img{
+        width: 80%;
+      }
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+ .index_item{
+    width: 500px;
+        background: rgb(79, 102, 255);
+        margin-bottom: 50px;
+ }
+ .index_item img{
+    height: 500px;
+}
+ }
+
+@media screen and (max-width: 414px) {
+
+} 
